@@ -1,0 +1,11 @@
+@import "./helpers/vars";
+html:lang(fa) {
+  font: 16px/25px "IRANSans";
+  color: #333;
+  body {
+    .container {
+      width: $-container-width;
+      margin: 0 auto;
+    }
+  }
+}
